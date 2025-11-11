@@ -15,7 +15,7 @@
   <link rel="icon" href={favicon} />
 </svelte:head>
 
-<header class="bg-white dark:white backdrop-blur sticky top-0 z-50 font-sans h-13">
+<header class="bg-white backdrop-blur sticky top-0 z-50 font-sans h-13">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
@@ -64,7 +64,7 @@
 
   <!-- Mobile Sidebar -->
   <div
-    class={`fixed inset-0 z-60 bg-white dark:bg-gray-900 flex flex-col items-center justify-center text-3xl font-semibold text-gray-900 dark:text-white transition-transform duration-300
+    class={`fixed inset-0 z-60 bg-white dark:bg-gray-900 flex flex-col items-center justify-center text-3xl font-semibold text-gray-900 dark:text-white transition-transform duration-300 h-13
       ${mobileOpen ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}
     `}
     style:pointer-events={mobileOpen ? 'auto' : 'none'}
