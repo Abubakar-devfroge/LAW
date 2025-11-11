@@ -15,14 +15,14 @@
   <link rel="icon" href={favicon} />
 </svelte:head>
 
-<header class="bg-white backdrop-blur  top-0 z-50 font-sans h-13">
+<header class="bg-white  backdrop-blur  top-0 z-50 font-sans h-13">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
   
       <div class="flex items-center z-50">
         <img class="h-8 w-auto" src={Logo} alt="Logo" />
-        <span class="ml-3 text-xl font-semibold text-gray-900 dark:text-white">
+        <span class="ml-3 text-xl font-semibold text-gray-900">
           OMA <br>& Associates
         </span>
       </div>
