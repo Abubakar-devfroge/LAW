@@ -15,7 +15,7 @@
   <link rel="icon" href={favicon} />
 </svelte:head>
 
-<header class="bg-white backdrop-blur sticky top-0 z-50 font-sans h-13">
+<header class="bg-white backdrop-blur  top-0 z-50 font-sans h-13">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
