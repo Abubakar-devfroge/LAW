@@ -2,14 +2,14 @@
   let heading = "Legal ";
   let heading2 = "Excellence";
   let subheading = "Personalized for You";
-  let src = '/nai.webp';
+  let src = '/sup.webp';
   import '../../app.css';
 </script>
 
-<section class="relative min-h-[70vh] md:min-h-[80vh] flex items-start md:items-center bg-black overflow-hidden rounded-none mx-1">
+<section class="relative min-h-[70vh] md:min-h-[80vh] flex items-start md:items-center bg-black overflow-hidden rounded-none ">
   <div class="absolute inset-0">
     <img src={src} alt="Hero background" class="w-full h-full object-cover"/>
-    <div class="absolute inset-0 bg-linear-to-r from-black/70 via-black/50 to-black/70"></div>
+    <div class="absolute inset-0 bg-linear-to-r from-black/40 via-black/20 to-black/70"></div>
   </div>
 
 
