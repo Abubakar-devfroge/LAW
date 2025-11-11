@@ -9,7 +9,7 @@
 <section class="relative min-h-[70vh] md:min-h-[80vh] flex items-start md:items-center bg-black overflow-hidden rounded-none ">
   <div class="absolute inset-0">
     <img src={src} alt="Hero background" class="w-full h-full object-cover"/>
-    <div class="absolute inset-0 bg-linear-to-r from-black/40 via-black/20 to-black/70"></div>
+    <!-- <div class="absolute inset-0 bg-linear-to-r from-black/40 via-black/20 to-black/70"></div> -->
   </div>
 
 
