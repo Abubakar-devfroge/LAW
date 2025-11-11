@@ -23,7 +23,7 @@
       <!-- Right: Button -->
       <div class="flex justify-start md:justify-end w-full md:w-auto">
         <a 
-          href="#"
+          href="/"
           class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-b-5 border-blue-800 hover:border-transparent transition duration-300"
         >
           {read}
@@ -34,5 +34,5 @@
   </div>
 
  
-  <div class="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
+  <div class="absolute inset-x-0 bottom-0 h-16 bg-linear-to-t from-black to-transparent pointer-events-none"></div>
 </section>

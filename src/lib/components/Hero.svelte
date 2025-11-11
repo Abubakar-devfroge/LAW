@@ -6,10 +6,10 @@
   import '../../app.css';
 </script>
 
-<section class="relative h-[23]  flex items-start md:items-center bg-black overflow-hidden rounded-none mx-1">
+<section class="relative min-h-[70vh] md:min-h-[80vh] flex items-start md:items-center bg-black overflow-hidden rounded-none mx-1">
   <div class="absolute inset-0">
     <img src={src} alt="Hero background" class="w-full h-full object-cover"/>
-    <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+    <div class="absolute inset-0 bg-linear-to-r from-black/70 via-black/50 to-black/70"></div>
   </div>
 
 
@@ -49,8 +49,5 @@
   }
   .animation-delay-200 {
     animation-delay: 0.2s;
-  }
-  .animation-delay-400 {
-    animation-delay: 0.4s;
   }
 </style>

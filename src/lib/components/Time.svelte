@@ -1,5 +1,5 @@
 <script>
-    let img = "/law.jpg";
+    let img = "/law.webp";
     let alt = "Law Firm Office";
 </script>
 
@@ -26,7 +26,7 @@
         Combining precision and innovation, we help you protect what matters most.
       </p>
     <a 
-      href='#'
+      href='/'
       class="text-lg font-semibold tracking-wide uppercase text-gray-900 dark:text-white hover:text-black dark:hover:text-gray-300 border-b-5 border-transparent hover:border-blue-800 dark:hover:border-white transition-colors duration-200 pb-1"
     >
         Contact Us
