@@ -1,4 +1,5 @@
 <script>
+	import Cta from "$lib/components/Cta.svelte";
 	import Feature from "$lib/components/Feature.svelte";
 	import Hero from "$lib/components/Hero.svelte";
 	import Report from "$lib/components/Report.svelte";
@@ -8,3 +9,4 @@
 <Hero />
 <Feature />
 <Report />
+<Cta />
