@@ -13,10 +13,8 @@
         {alt} 
         class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700 ease-in-out"
       />
-      <!-- <div class="absolute inset-0 bg-gradient-to-l from-white/0 to-white/70 md:to-white/60"></div> -->
     </div>
 
-    <!-- Left: Text Content -->
     <div class="flex-1 text-left">
       <h2 class=" sm:text-5xl md:text-4xl font-bold text-gray-900 ">
         Serving with purpose
@@ -33,8 +31,7 @@
       </a>
     </div>
 
-    <!-- Right: Image -->
-   
+
 
   </div>
 </section>

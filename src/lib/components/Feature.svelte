@@ -28,8 +28,8 @@
         {paragraph}
       </p>
     <a 
-      href='#'
-      class="text-lg font-semibold tracking-wide uppercase text-gray-900 dark:text-white hover:text-black dark:hover:text-gray-300 border-b-5 border-blue-800 hover:border-transparent dark:hover:border-white transition-colors duration-200 pb-1"
+      href='/'
+      class="text-lg font-semibold tracking-wide uppercase text-gray-900 hover:text-black dark:hover:text-gray-300 border-b-5 border-blue-800 hover:border-transparent dark:hover:border-white transition-colors duration-200 pb-1"
     >
        {contact}
       </a>

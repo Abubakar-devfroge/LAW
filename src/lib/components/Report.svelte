@@ -20,7 +20,7 @@
         </p>
       </div>
 
-      <!-- Right: Button -->
+     
       <div class="flex justify-start md:justify-end w-full md:w-auto">
         <a 
           href="/"

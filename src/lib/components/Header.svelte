@@ -19,7 +19,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
-      <!-- Logo -->
+  
       <div class="flex items-center z-50">
         <img class="h-8 w-auto" src={Logo} alt="Logo" />
         <span class="ml-3 text-xl font-semibold text-gray-900 dark:text-white">
@@ -27,7 +27,7 @@
         </span>
       </div>
 
-      <!-- Desktop Nav -->
+ 
       <nav class="hidden md:flex space-x-8">
         {#each navs as nav}
           <a 
@@ -39,7 +39,7 @@
         {/each}
       </nav>
 
-      <!-- Mobile toggle button -->
+ 
       <div class="md:hidden z-50">
         <button 
           on:click={() => mobileOpen = !mobileOpen}
@@ -62,9 +62,9 @@
     </div>
   </div>
 
-  <!-- Mobile Sidebar -->
+
   <div
-    class={`fixed inset-0 z-60 bg-white dark:bg-gray-900 flex flex-col items-center justify-center text-3xl font-semibold text-gray-900 dark:text-white transition-transform duration-300 h-13
+    class={`fixed inset-0 z-60 bg-white  flex flex-col items-center justify-center text-3xl font-semibold text-gray-900 dark:text-white transition-transform duration-300 h-13
       ${mobileOpen ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}
     `}
     style:pointer-events={mobileOpen ? 'auto' : 'none'}
