@@ -1,5 +1,6 @@
 <script>
   import favicon from '$lib/assets/favicon.svg';
+  import { afterNavigate } from '$app/navigation'; 
 
   let mobileOpen = false;
 
@@ -13,7 +14,13 @@
   let Logo = '/icon.png';
   let menu = '/ham.svg';
   let close = '/menu.svg';
+
+
+  afterNavigate(() => {
+    mobileOpen = false;
+  });
 </script>
+
 
 <svelte:head>
   <link rel="icon" href={favicon} />
@@ -81,7 +88,7 @@
       {#each navs as nav}
         <a 
           href={nav.href} 
-          on:click={() => mobileOpen = false}
+       
           class="relative text-lg font-semibold tracking-wide uppercase text-gray-900 pb-1
                    before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-full 
                    before:bg-blue-800 before:origin-left before:scale-x-0 
