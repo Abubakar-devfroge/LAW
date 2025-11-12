@@ -1,40 +1,48 @@
 <script>
-    let img = "/law.webp";
-    let alt = "Law Firm Office";
+  let heading = "Annual Report 2025";
+  let subheading = "Our latest report and letters to shareholders, released April 2025";
+  let read = "Read the report";
+  let src = '/wd.jpg';
 </script>
 
+<section 
+  class="relative bg-cover bg-center bg-no-repeat h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] rounded-none overflow-hidden mr-14 z-10"
+  style="background-image: url({src});"
+>
 
-
-<section class="relative bg-white overflow-hidden py-8 md:py-16">
-  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 lg:px-12 gap-12 md:gap-20">
-     <div class="flex-1 relative w-full h-[200px] md:h-[500px] rounded-none overflow-hidden ">
-      <img 
-        src={img} 
-        {alt} 
-        class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700 ease-in-out"
-      />
-    </div>
-
-    <div class="flex-1 text-left">
-      <h2 class=" sm:text-5xl md:text-4xl font-bold text-gray-900 ">
-        Serving with purpose
-      </h2>
-      <p class=" sm:text-xl text-gray-600 mb-8 max-w-lg mt-2">
-        We provide trusted, forward-thinking legal solutions for individuals, creators, and institutions.
-        Combining precision and innovation, we help you protect what matters most.
-      </p>
-    <a 
-      href='/'
-      class="text-lg font-semibold tracking-wide uppercase text-gray-900 dark:text-white hover:text-black dark:hover:text-gray-300 border-b-5 border-transparent hover:border-blue-800 dark:hover:border-white transition-colors duration-200 pb-1"
-    >
-        Contact Us
-      </a>
-    </div>
-
-
-
-  </div>
 </section>
 
 
+<section 
+  class="relative bg-gray-700 text-white rounded-none  w-auto z-20 ml-20 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] 
+         -mt-76 sm:-mt-84 md:-mt-90 lg:-mt-96"
+>
+  <div class="max-w-6xl mx-auto px-6 lg:px-12 py-12 sm:py-16 md:py-20 flex flex-col md:flex-row items-center justify-between gap-6">
+    <div class="flex-1 flex flex-col md:flex-row md:items-center justify-between gap-4 w-full">
+      
 
+      <div class="max-w-2xl">
+        <h2 class="text-3xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold tracking-tight leading-tight mb-4">
+          {heading}
+        </h2>
+        <p class="text-base sm:text-lg md:text-xl mb-6">
+          {subheading}
+        </p>
+      </div>
+
+
+      <div class="flex justify-start md:justify-end w-full md:w-auto">
+        <a 
+          href="/"
+          class="relative inline-block px-8 py-3 text-sm sm:text-base md:text-base font-semibold tracking-wide uppercase 
+                 before:absolute before:bottom-0 before:left-0 before:h-[5px] before:w-full 
+                 before:bg-[#a82c30] before:origin-left before:scale-x-0 
+                 before:transition-transform before:duration-300 before:ease-in-out
+                 hover:before:scale-x-100"
+        >
+          {read}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

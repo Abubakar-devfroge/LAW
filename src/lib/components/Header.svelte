@@ -30,12 +30,18 @@
  
       <nav class="hidden md:flex space-x-8">
         {#each navs as nav}
-          <a 
-            href={nav.href}
-            class="text-lg font-semibold tracking-wide uppercase text-gray-900 dark:text-white hover:text-black dark:hover:text-gray-300 border-b-5 border-transparent hover:border-blue-800 dark:hover:border-white transition-colors duration-200 pb-1"
+              <a 
+          href={nav.href}
+          class="relative text-lg font-semibold tracking-wide uppercase text-gray-900 dark:text-white 
+                  pb-1
+                  before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-full before:bg-blue-800 
+                  dark:before:bg-white
+                  before:origin-left before:scale-x-0 before:transition-transform before:duration-300 before:ease-in-out
+                  hover:before:scale-x-100"
           >
-            {nav.name}
+          {nav.name}
           </a>
+
         {/each}
       </nav>
 

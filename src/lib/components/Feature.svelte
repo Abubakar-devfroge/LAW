@@ -16,10 +16,10 @@
         {alt} 
         class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700 ease-in-out"
       />
-      <!-- <div class="absolute inset-0 bg-gradient-to-l from-white/0 to-white/70 md:to-white/60"></div> -->
+
     </div>
 
-    <!-- Left: Text Content -->
+
     <div class="flex-1 text-left">
       <h2 class=" sm:text-5xl md:text-4xl font-bold text-gray-900 ">
       {serve}
@@ -27,15 +27,20 @@
       <p class=" sm:text-xl text-gray-600 mb-8 max-w-lg mt-2">
         {paragraph}
       </p>
-    <a 
-      href='/'
-      class="text-lg font-semibold tracking-wide uppercase text-gray-900 hover:text-black dark:hover:text-gray-300 border-b-5 border-blue-800 hover:border-transparent dark:hover:border-white transition-colors duration-200 pb-1"
-    >
-       {contact}
-      </a>
+          <a 
+            href="/"
+            class="relative inline-block text-lg font-semibold tracking-wide uppercase text-gray-900 dark:text-white 
+                  pb-1
+                  before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-full 
+                  before:bg-blue-800 before:transition-colors before:duration-300 before:ease-in-out
+                  hover:before:bg-[#a82c30] dark:hover:before:bg-white"
+          >
+            {contact}
+          </a>
+
     </div>
 
-    <!-- Right: Image -->
+
    
 
   </div>
