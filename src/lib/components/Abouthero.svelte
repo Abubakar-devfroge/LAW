@@ -14,7 +14,7 @@
 
 
 <section 
-  class="relative bg-gray-700 text-white rounded-none  w-auto z-20 ml-20 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] 
+  class="relative bg-[#002147] text-white rounded-2xl  w-auto z-20 ml-20 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] 
          -mt-76 sm:-mt-84 md:-mt-90 lg:-mt-96"
 >
   <div class="max-w-6xl mx-auto px-6 lg:px-12 py-12 sm:py-16 md:py-20 flex flex-col md:flex-row items-center justify-between gap-6">

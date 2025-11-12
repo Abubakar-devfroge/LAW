@@ -10,7 +10,7 @@
 
 <section class="relative bg-white overflow-hidden py-8 md:py-16">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 lg:px-12 gap-12 md:gap-20">
-     <div class="flex-1 relative w-full h-[200px] md:h-[500px] rounded-none overflow-hidden ">
+     <div class="flex-1 relative w-full h-[200px] md:h-[500px] rounded-2xl overflow-hidden ">
       <img 
         src={img} 
         {alt} 
@@ -29,11 +29,8 @@
       </p>
           <a 
             href="/"
-            class="relative inline-block text-lg font-semibold tracking-wide uppercase text-gray-900 dark:text-white 
-                  pb-1
-                  before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-full 
-                  before:bg-blue-800 before:transition-colors before:duration-300 before:ease-in-out
-                  hover:before:bg-[#a82c30] dark:hover:before:bg-white"
+            class="relative inline-block text-base rounded-2xl bg-gray-200 font-semibold text-gray-600 px-8 py-2
+                   "
           >
             {contact}
           </a>

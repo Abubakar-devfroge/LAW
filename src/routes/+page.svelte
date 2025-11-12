@@ -2,15 +2,13 @@
 	import Cta from "$lib/components/Cta.svelte";
 	import Feature from "$lib/components/Feature.svelte";
 	import Hero from "$lib/components/Hero.svelte";
-	import New from "$lib/components/New.svelte";
 	import Report from "$lib/components/Report.svelte";
-	import Time from "$lib/components/Time.svelte";
+	import Abouthero from "$lib/components/Abouthero.svelte";
     
 </script>
 
-<!-- <Hero /> -->
-<New />
+<Hero />
 <Feature />
 <Report />
 <Cta />
-<Time />
+<Abouthero />

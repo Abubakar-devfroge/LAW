@@ -12,6 +12,7 @@
 
   let Logo = '/icon.png';
   let menu = '/ham.svg';
+  let close = '/menu.svg';
 </script>
 
 <svelte:head>
@@ -60,9 +61,11 @@
         />
       {:else}
 
-          <svg class="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-          </svg>
+           <img 
+          src={close}
+          alt="Menu" 
+          class="h-10 w-10 object-contain"
+        />
         {/if}
       </button>
 
@@ -71,7 +74,7 @@
 
   <!-- Mobile Menu -->
   <div
-    class={`md:hidden transition-all duration-300 ease-in-out overflow-hidden bg-white border-t border-gray-100 
+    class={`md:hidden transition-all duration-300 ease-in-out overflow-hidden bg-white 
       ${mobileOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}
   >
     <div class="px-4 pt-4 pb-6 space-y-4 flex flex-col items-start">
@@ -79,8 +82,11 @@
         <a 
           href={nav.href} 
           on:click={() => mobileOpen = false}
-          class="block text-lg font-medium text-gray-900 hover:text-blue-800 transition"
-        >
+          class="relative text-lg font-semibold tracking-wide uppercase text-gray-900 pb-1
+                   before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-full 
+                   before:bg-blue-800 before:origin-left before:scale-x-0 
+                   before:transition-transform before:duration-300 hover:before:scale-x-100"
+          >
           {nav.name}
         </a>
       {/each}
