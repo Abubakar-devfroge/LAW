@@ -27,13 +27,13 @@
       <p class=" sm:text-xl text-gray-600 mb-8 max-w-lg mt-2">
         {paragraph}
       </p>
-          <a 
+          <!-- <a 
             href="/"
             class="relative inline-block text-base rounded-2xl bg-gray-200 font-semibold text-gray-600 px-8 py-2
                    "
           >
             {contact}
-          </a>
+          </a> -->
 
     </div>
 

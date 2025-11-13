@@ -1,12 +1,12 @@
 
 <script>
-    let heading = "Annual Report 2025";
-    let subheading = "Our latest report and letters to shareholders, released April 2025";
-    let read = "Read the report";
+    let heading = "Strategic. Ethical. Exceptional.";
+    let subheading = "Partnering with clients to deliver forward-thinking legal strategies, unmatched advocacy, and service defined by the highest professional standards.";
+    let read = "Request Legal Counsel";
 </script>
 
 
-<section class="relative bg-[#002147] text-white py-12 md:py-20 overflow-hidden rounded-none mr-20">
+<section class="relative bg-[#044232] text-white py-12 md:py-20 overflow-hidden rounded-none mr-20">
   <div class="max-w-6xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
 
   
@@ -24,7 +24,7 @@
       <div class="flex justify-start md:justify-end w-full md:w-auto">
         <a 
           href="/"
-          class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-b-5 border-[#a82c30] hover:border-transparent transition duration-300"
+          class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-b-5 border-[#E29C20] hover:border-transparent transition duration-300"
         >
           {read}
         </a>

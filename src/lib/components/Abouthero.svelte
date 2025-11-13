@@ -14,7 +14,7 @@
 
 
 <section 
-  class="relative bg-[#002147] text-white rounded-none  w-auto z-20 ml-20 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] 
+  class="relative bg-[#044232]  text-white rounded-none  w-auto z-20 ml-20 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] 
          -mt-76 sm:-mt-84 md:-mt-90 lg:-mt-96"
 >
   <div class="max-w-6xl mx-auto px-6 lg:px-12 py-12 sm:py-16 md:py-20 flex flex-col md:flex-row items-center justify-between gap-6">
@@ -36,7 +36,7 @@
           href="/"
           class="relative inline-block px-8 py-3 text-sm sm:text-base md:text-base font-semibold tracking-wide uppercase 
                  before:absolute before:bottom-0 before:left-0 before:h-[5px] before:w-full 
-                 before:bg-[#a82c30] before:origin-left before:scale-x-0 
+                 before:bg-[#E29C20] before:origin-left before:scale-x-0 
                  before:transition-transform before:duration-300 before:ease-in-out
                  hover:before:scale-x-100"
         >

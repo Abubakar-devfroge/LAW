@@ -45,7 +45,7 @@
             href={link.href}
             class="relative inline-block border-b-2 border-transparent
                   before:absolute before:bottom-0 before:left-0 before:h-0.5 before:w-full 
-                  before:bg-blue-800 before:origin-left before:scale-x-0
+                  before:bg-[#E29C20] before:origin-left before:scale-x-0
                   before:transition-transform before:duration-300 before:ease-in-out
                   hover:before:scale-x-100"
           >
