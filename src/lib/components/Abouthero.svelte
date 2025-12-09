@@ -34,11 +34,7 @@
       <div class="flex justify-start md:justify-end w-full md:w-auto">
         <a 
           href="/"
-          class="relative inline-block px-8 py-3 text-sm sm:text-base md:text-base font-semibold tracking-wide uppercase 
-                 before:absolute before:bottom-0 before:left-0 before:h-[5px] before:w-full 
-                 before:bg-[#E29C20] before:origin-left before:scale-x-0 
-                 before:transition-transform before:duration-300 before:ease-in-out
-                 hover:before:scale-x-100"
+                   class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-5 border-[#E29C20] hover:bg-[#E29C20] hover:text-gray-900 transition duration-300"
         >
           {read}
         </a>
