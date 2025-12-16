@@ -6,7 +6,7 @@
 </script>
 
 
-<section class="relative bg-[#044232] text-white py-12 md:py-20 overflow-hidden rounded-none m-12">
+<section class="relative bg-[#16473f] text-white py-12 md:py-20 overflow-hidden rounded-none m-12">
     
   <div class="max-w-6xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
 
@@ -25,7 +25,7 @@
       <div class="flex justify-start md:justify-end w-full md:w-auto">
         <a 
           href="/"
-                   class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-5 border-[#E29C20] hover:bg-[#E29C20] hover:text-gray-900 transition duration-300"
+                   class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-b-5 border-[#E29C20] hover:border-[#E29C20]  transition duration-300"
         >
           {read}
         </a>
