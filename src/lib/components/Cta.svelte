@@ -24,7 +24,7 @@
       <div class="flex justify-start md:justify-end w-full md:w-auto">
         <a 
           href="/"
-                   class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-5 border-[#E29C20] hover:bg-[#E29C20] hover:text-gray-900 transition duration-300"
+                   class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-4 border-[#E29C20] hover:border-[#E29C20]  transition duration-300"
         >
           {read}
         </a>

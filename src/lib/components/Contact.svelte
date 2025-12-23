@@ -19,7 +19,7 @@
         </p>
 
 
-        <button class="bg-white text-gray-900 rounded-none text-xl font-medium py-2 px-4">Contact Form</button>
+        <button class="border-4 border-[#E29C20] hover:border-[#E29C20] text-white rounded-none text-xl font-medium py-2 px-4">Contact Form</button>
       </div>
 
      

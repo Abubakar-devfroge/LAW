@@ -23,12 +23,16 @@
         </p>
 
 
-        <button class="bg-white text-gray-900 rounded-none text-xl font-medium py-2 px-4">Contact Form</button>
       </div>
 
       <!-- Image (same visual weight as button) -->
       <div class="flex justify-start md:justify-end w-full md:w-auto">
-      {Details}
+       <h4 class="text-xl md:text-xl font-semibold tracking-tight leading-tight mb-4">
+          {Details}
+        </h4> <br>
+
+        <button class="bg-white text-gray-900 rounded-none text-xl font-medium py-2 px-4">Contact Form</button>
+
       </div>
 
     </div>

@@ -1,1 +1,3 @@
-<h1 class="text-center text-8xl mb-4">This is the practise</h1>
+<div class="border-5  border-[#E29C20]  text-center m-20 p-8">
+    <h1>This is the practise Area</h1>
+</div>
