@@ -8,7 +8,7 @@
     { name: 'About us', href: '/about' },
     { name: 'What we do', href: '/' },
     { name: 'Why us', href: '/' },
-    { name: 'Careers', href: '/' }
+    { name: 'Contact', href: '/contact' }
   ];
 
   let Logo = '/icon.png';
