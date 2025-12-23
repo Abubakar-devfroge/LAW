@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-"scripts": {
+	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -31,6 +31,7 @@
 		"vite": "^7.1.10"
 	},
 	"dependencies": {
+		"@fontsource-variable/ibm-plex-sans": "^5.2.8",
 		"@sveltejs/adapter-vercel": "^6.1.1",
 		"@tailwindcss/vite": "^4.1.17",
 		"tailwindcss": "^4.1.17"
