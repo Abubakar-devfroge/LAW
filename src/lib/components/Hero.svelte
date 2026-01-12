@@ -6,7 +6,7 @@
 </script>
 
 
-<section class="relative bg-[#16473f] text-white py-12 md:py-20 overflow-hidden rounded-none m-12">
+<section class="relative bg-[#16473f] text-white py-20 md:py-20 overflow-hidden rounded-none h-96">
     
   <div class="max-w-6xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
 
