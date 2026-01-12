@@ -65,7 +65,7 @@
         </div>
         <label for="agree-to-policies" class="text-sm/6 text-gray-600">
           By selecting this, you agree to our
-          <a href="#" class="font-semibold whitespace-nowrap text-indigo-600">privacy policy</a>.
+          <a href="/" class="font-semibold whitespace-nowrap text-indigo-600">privacy policy</a>.
         </label>
       </div>
     </div>

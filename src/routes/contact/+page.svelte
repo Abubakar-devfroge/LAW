@@ -1,9 +1,8 @@
 <script>
-	import Company from "$lib/components/Company.svelte";
-	import Contact from "$lib/components/Contact.svelte";
+	import Contact from "$lib/components/ui/Contact.svelte";
+
+
 
 </script>
 
-
-<Company />
 <Contact />
