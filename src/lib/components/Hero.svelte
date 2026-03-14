@@ -1,38 +1,68 @@
-
 <script>
-    let heading = "Redefining Legal Excellence for Africa and Beyond";
-    let subheading = "Empowering justice through innovation, integrity, and impact — setting new standards in law across the globe.";
-    let read = "Discover Our Approach";
+	import { resolve } from '$app/paths';
+	let img = '/law.webp';
+
+
+
 </script>
 
+<section class="relative overflow-hidden bg-white">
+	<div class="relative mx-auto max-w-7xl px-6 py-4">
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+			<div class="max-w-xl">
+      		<a href={resolve('/')} class="inline-block">
+					<img
+						src="/law"
+						alt="Law logo"
+						class="h-32 sm:h-40 w-auto"
+						width="299"
+						height="224"
+						fetchpriority="high"
+						on:contextmenu|preventDefault
+					/>
+				</a>
 
-<section class="relative bg-[#16473f] text-white py-20 md:py-20 overflow-hidden rounded-none h-96">
-    
-  <div class="max-w-6xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
+				<h1 class="mt-8 text-5xl font-extrabold tracking-tight sm:text-6xl text-black">
+					Redefining the Art
+					<span class="block"> of Law</span>
+				</h1>
 
-  
-    <div class="flex-1 flex flex-col md:flex-row md:items-center justify-between gap-4 w-full">
-      <div class="max-w-2xl">
-        <h2 class="text-3xl md:text-4xl font-semibold tracking-tight leading-tight mb-4">
-          {heading}
-        </h2>
-        <p class="sm:text-xl  mb-6">
-          {subheading}
-        </p>
-      </div>
+				<p class="mt-6 lg:text-base sm:text-sm leading-relaxed text-gray-600">
+				Navigate complex legal requirements with clarity, confidence, and informed decision-making.
+				</p>
 
-     
-      <div class="flex justify-start md:justify-end w-full md:w-auto">
-        <a 
-          href="/"
-                   class="inline-block rounded-none px-8 py-3 text-sm md:text-base font-semibold tracking-wide uppercase text-white border-4 border-[#E29C20] hover:border-[#E29C20]  transition duration-300"
-        >
-          {read}
-        </a>
-      </div>
-    </div>
+				<div class="mt-10 flex flex-wrap gap-4">
+					<a
+						href={resolve('/contact')}
+						class="inline-flex items-center justify-center rounded-md bg-[#245524] px-8 py-2 text-base font-medium text-white transition hover:bg-[#245524] focus:outline-none focus:ring-2 focus:ring-[#47c263] focus:ring-offset-2"
+					>
+						Contact Us
+					</a>
 
-  </div>
+					<a
+						href={resolve('/about')}
+						class="inline-flex items-center justify-center rounded-md bg-gray-100 px-8 py-2 text-base font-medium text-black transition hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+					>
+						Learn more
+					</a>
+				</div>
+			</div>
+
+			<!-- RIGHT: Hero Video -->
+	<div class="relative">
+	<div
+		class="relative rounded-3xl overflow-hidden w-full h-0"
+		style="padding-bottom: 56.25%;"
+	>
+		<img
+			src={img}
+			alt="Hero Image"
+			class="absolute top-0 left-0 w-full h-full object-cover"
+		/>
+	</div>
 
 
+</div>
+		</div>
+	</div>
 </section>

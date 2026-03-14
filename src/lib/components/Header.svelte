@@ -1,17 +1,20 @@
 <script>
   import favicon from '$lib/assets/favicon.svg';
   import { afterNavigate } from '$app/navigation'; 
+  	import { resolve } from '$app/paths';
+
 
   let mobileOpen = false;
+  let img = ''
 
   let navs = [
-    { name: 'About us', href: '/about' },
-    { name: 'What we do', href: '/' },
-    { name: 'Why us', href: '/' },
+
+    { name: 'Home', href: '/' },
+     { name: 'About', href: '/about' },
+
     { name: 'Contact', href: '/contact' }
   ];
 
-  let Logo = '/icon.png';
   let menu = '/ham.svg';
   let close = '/menu.svg';
 
@@ -32,10 +35,17 @@
 
  
       <div class="flex items-center">
-        <img class="h-8 w-auto" src={Logo} alt="Logo" />
-        <span class="ml-3 text-xl font-semibold text-gray-900 leading-tight">
-          OMA <br>& Associates
-        </span>
+      		<a href={resolve('/')} class="inline-block">
+					<img
+						src={img}
+						alt="Lock.in"
+						class="h-32 sm:h-40 w-auto"
+						width="299"
+						height="224"
+						fetchpriority="high"
+						on:contextmenu|preventDefault
+					/>
+				</a>
       </div>
 
       
