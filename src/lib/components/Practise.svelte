@@ -34,7 +34,6 @@
 <section class="bg-white py-20">
 	<div class="mx-auto max-w-7xl px-6">
 		<div class="grid gap-16 lg:grid-cols-2 items-center">
-
 			<!-- LEFT VISUAL -->
 			<div class="relative h-[420px] overflow-hidden rounded-2xl bg-gray-100">
 				{#key active}
@@ -46,9 +45,17 @@
 						out:fade={{ duration: 400 }}
 					/>
 
-					<div class="absolute inset-0 bg-black/40" in:fade={{ duration: 400 }} out:fade={{ duration: 400 }}></div>
+					<div
+						class="absolute inset-0 bg-black/40"
+						in:fade={{ duration: 400 }}
+						out:fade={{ duration: 400 }}
+					></div>
 
-					<div class="relative flex h-full flex-col justify-end p-10 text-white" in:fade={{ duration: 400 }} out:fade={{ duration: 400 }}>
+					<div
+						class="relative flex h-full flex-col justify-end p-10 text-white"
+						in:fade={{ duration: 400 }}
+						out:fade={{ duration: 400 }}
+					>
 						<h3 class="mt-2 text-3xl font-semibold">
 							{areas[active].title}
 						</h3>
@@ -77,7 +84,6 @@
 					{/each}
 				</div>
 			</div>
-
 		</div>
 	</div>
 </section>

@@ -178,8 +178,6 @@
 				{/if}
 			</div>
 		{/if}
-
-		<!-- <ApplyGlobe /> -->
 	</div>
 </div>
 

@@ -47,7 +47,7 @@
 		</aside>
 
 		<nav class="space-y-3">
-			<h6 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Pratise Areas</h6>
+			<h3 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Pratise Areas</h3>
 			<ul class="space-y-2 text-sm">
 				{#each products as item (item.id)}
 					<li>
@@ -69,7 +69,7 @@
 		</nav>
 
 		<nav class="space-y-3">
-			<h6 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Company</h6>
+			<h3 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Company</h3>
 			<ul class="space-y-2 text-sm">
 				{#each company as item (item.id)}
 					<li>
@@ -91,7 +91,7 @@
 		</nav>
 
 		<nav class="space-y-3">
-			<h6 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Legal</h6>
+			<h3 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Legal</h3>
 			<ul class="space-y-2 text-sm">
 				{#each legal as item (item.id)}
 					<li>

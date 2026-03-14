@@ -57,6 +57,8 @@
 						src={img}
 						alt="Abstract design"
 						class="absolute top-0 left-0 w-full h-full object-cover"
+						fetchpriority="high"
+						on:contextmenu|preventDefault
 					/>
 				</div>
 			</div>
