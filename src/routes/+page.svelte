@@ -1,10 +1,10 @@
 <script>
-	import CTA from "$lib/components/CTA.svelte";
-	import Feature from "$lib/components/Feature.svelte";
-	import Hero from "$lib/components/Hero.svelte";
-	import Practise from "$lib/components/Practise.svelte";
-	import Report from "$lib/components/Report.svelte";
-    
+	import CTA from '$lib/components/CTA.svelte';
+	import Feature from '$lib/components/Feature.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import Hero from '$lib/components/Hero.svelte';
+	import Practise from '$lib/components/Practise.svelte';
+	import Report from '$lib/components/Report.svelte';
 </script>
 
 <Hero />
@@ -12,3 +12,4 @@
 <Practise />
 <Report />
 <CTA />
+<Footer />

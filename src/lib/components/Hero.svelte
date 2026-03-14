@@ -1,16 +1,15 @@
 <script>
 	import { resolve } from '$app/paths';
 	let img = '/law.webp';
-
-
-
+	let paragraph =
+		'Navigate complex legal requirements with clarity, confidence, and informed decision-making.';
 </script>
 
 <section class="relative overflow-hidden bg-white">
 	<div class="relative mx-auto max-w-7xl px-6 py-4">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 			<div class="max-w-xl">
-      		<a href={resolve('/')} class="inline-block">
+				<a href={resolve('/')} class="inline-block">
 					<img
 						src="/law"
 						alt="Law logo"
@@ -28,7 +27,7 @@
 				</h1>
 
 				<p class="mt-6 lg:text-base sm:text-sm leading-relaxed text-gray-600">
-				Navigate complex legal requirements with clarity, confidence, and informed decision-making.
+					{paragraph}
 				</p>
 
 				<div class="mt-10 flex flex-wrap gap-4">
@@ -48,21 +47,19 @@
 				</div>
 			</div>
 
-			<!-- RIGHT: Hero Video -->
-	<div class="relative">
-	<div
-		class="relative rounded-3xl overflow-hidden w-full h-0"
-		style="padding-bottom: 56.25%;"
-	>
-		<img
-			src={img}
-			alt="Hero Image"
-			class="absolute top-0 left-0 w-full h-full object-cover"
-		/>
-	</div>
-
-
-</div>
+			<!-- RIGHT: Hero Image -->
+			<div class="relative">
+				<div
+					class="relative rounded-3xl overflow-hidden w-full h-0"
+					style="padding-bottom: 56.25%;"
+				>
+					<img
+						src={img}
+						alt="Abstract design"
+						class="absolute top-0 left-0 w-full h-full object-cover"
+					/>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

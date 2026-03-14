@@ -1,22 +1,23 @@
 <script>
 	let img = '/logo.webp';
 	import { resolve } from '$app/paths';
+
 	const products = [
-		{ label: 'Lockin premium', href: '/premium' },
-		{ label: 'Lock.in Swag', href: '/shop' },
-		{ label: 'Community', href: '/community' },
-		{ label: 'Pricing', href: '/pricing' }
+		{ id: 1, label: 'Commercial Law', href: '/premium' },
+		{ id: 2, label: 'Real Estate & Property Law', href: '/shop' },
+		{ id: 3, label: 'Intellectual Property', href: '/community' },
+		{ id: 4, label: 'Employment & Labour law', href: '/pricing' }
 	];
 
 	const company = [
-		{ label: 'About us', href: '/' },
-		{ label: 'Services', href: '/path' },
-		{ label: 'Contact us', href: '/blog' }
+		{ id: 1, label: 'About us', href: '/' },
+		{ id: 2, label: 'Services', href: '/path' },
+		{ id: 3, label: 'Contact us', href: '/blog' }
 	];
 
 	const legal = [
-		{ label: 'Terms of use', href: '/Terms' },
-		{ label: 'Privacy policy', href: '/Policy' }
+		{ id: 1, label: 'Terms of use', href: '/Terms' },
+		{ id: 2, label: 'Privacy policy', href: '/Policy' }
 	];
 </script>
 
@@ -39,17 +40,16 @@
 			</span>
 
 			<p class="text-sm leading-relaxed">
-				<span class="font-semibold text-gray-900"> OMA &ADVOCATES </span>
+				<span class="font-semibold text-gray-900">OMA &ADVOCATES</span>
 				<br />
 				Your compass in law.
 			</p>
 		</aside>
 
-		<!-- Products -->
 		<nav class="space-y-3">
 			<h6 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Pratise Areas</h6>
 			<ul class="space-y-2 text-sm">
-				{#each products as item}
+				{#each products as item (item.id)}
 					<li>
 						<a
 							href={resolve(item.href)}
@@ -68,11 +68,10 @@
 			</ul>
 		</nav>
 
-		<!-- Company -->
 		<nav class="space-y-3">
 			<h6 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Company</h6>
 			<ul class="space-y-2 text-sm">
-				{#each company as item}
+				{#each company as item (item.id)}
 					<li>
 						<a
 							href={resolve(item.href)}
@@ -91,11 +90,10 @@
 			</ul>
 		</nav>
 
-		<!-- Legal -->
 		<nav class="space-y-3">
 			<h6 class="text-sm font-semibold uppercase tracking-wide text-gray-900">Legal</h6>
 			<ul class="space-y-2 text-sm">
-				{#each legal as item}
+				{#each legal as item (item.id)}
 					<li>
 						<a
 							href={resolve(item.href)}
