@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Lockk.in - Privacy Policy</title>
+	<title>OMA ADVOCATES - Privacy Policy</title>
 	<meta name="description" content="Learn coding with guidance from top engineers." />
 </svelte:head>
 
