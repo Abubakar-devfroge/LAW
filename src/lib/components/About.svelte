@@ -21,7 +21,13 @@
 			</div>
 
 			<div class="md:col-span-3">
-				<img src={img} class="rounded" alt="About us" />
+				<img
+					src={img}
+					class="rounded"
+					alt="About us"
+					fetchpriority="high"
+					on:contextmenu|preventDefault
+				/>
 			</div>
 		</div>
 	</div>
