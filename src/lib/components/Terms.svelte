@@ -9,7 +9,7 @@
 			<a href={resolve('/')} class="inline-block">
 				<img
 					src={img}
-					alt="Lock.in"
+					alt="Lawfirm  logo"
 					class="h-22 sm:h-22 w-auto"
 					fetchpriority="high"
 					on:contextmenu|preventDefault

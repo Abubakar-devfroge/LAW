@@ -3,21 +3,21 @@
 	import { resolve } from '$app/paths';
 
 	const products = [
-		{ id: 1, label: 'Commercial Law', href: '/premium' },
-		{ id: 2, label: 'Real Estate & Property Law', href: '/shop' },
-		{ id: 3, label: 'Intellectual Property', href: '/community' },
-		{ id: 4, label: 'Employment & Labour law', href: '/pricing' }
+		{ id: 1, label: 'Commercial Law', href: '/' },
+		{ id: 2, label: 'Real Estate & Property Law', href: '/' },
+		{ id: 3, label: 'Intellectual Property', href: '/' },
+		{ id: 4, label: 'Employment & Labour law', href: '/' }
 	];
 
 	const company = [
-		{ id: 1, label: 'About us', href: '/' },
-		{ id: 2, label: 'Services', href: '/path' },
-		{ id: 3, label: 'Contact us', href: '/blog' }
+		{ id: 1, label: 'About us', href: '/about' },
+		{ id: 2, label: 'Services', href: '/about' },
+		{ id: 3, label: 'Contact us', href: '/contact' }
 	];
 
 	const legal = [
 		{ id: 1, label: 'Terms of use', href: '/Terms' },
-		{ id: 2, label: 'Privacy policy', href: '/Policy' }
+		{ id: 2, label: 'Privacy policy', href: '/Privacy' }
 	];
 </script>
 

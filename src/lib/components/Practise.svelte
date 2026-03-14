@@ -1,4 +1,6 @@
 <script>
+	import { fade } from 'svelte/transition';
+
 	let active = 0;
 
 	const areas = [
@@ -32,25 +34,30 @@
 <section class="bg-white py-20">
 	<div class="mx-auto max-w-7xl px-6">
 		<div class="grid gap-16 lg:grid-cols-2 items-center">
+
 			<!-- LEFT VISUAL -->
 			<div class="relative h-[420px] overflow-hidden rounded-2xl bg-gray-100">
-				<img
-					src={areas[active].img}
-					class="absolute inset-0 h-full w-full object-cover transition duration-500"
-					alt=""
-				/>
+				{#key active}
+					<img
+						src={areas[active].img}
+						alt=""
+						class="absolute inset-0 h-full w-full object-cover"
+						in:fade={{ duration: 400 }}
+						out:fade={{ duration: 400 }}
+					/>
 
-				<div class="absolute inset-0 bg-black/40"></div>
+					<div class="absolute inset-0 bg-black/40" in:fade={{ duration: 400 }} out:fade={{ duration: 400 }}></div>
 
-				<div class="relative flex h-full flex-col justify-end p-10 text-white">
-					<h3 class="mt-2 text-3xl font-semibold">
-						{areas[active].title}
-					</h3>
+					<div class="relative flex h-full flex-col justify-end p-10 text-white" in:fade={{ duration: 400 }} out:fade={{ duration: 400 }}>
+						<h3 class="mt-2 text-3xl font-semibold">
+							{areas[active].title}
+						</h3>
 
-					<p class="mt-3 max-w-md text-gray-200 leading-relaxed">
-						{areas[active].desc}
-					</p>
-				</div>
+						<p class="mt-3 max-w-md text-gray-200 leading-relaxed">
+							{areas[active].desc}
+						</p>
+					</div>
+				{/key}
 			</div>
 
 			<!-- RIGHT CONTENT -->
@@ -70,6 +77,7 @@
 					{/each}
 				</div>
 			</div>
+
 		</div>
 	</div>
 </section>
